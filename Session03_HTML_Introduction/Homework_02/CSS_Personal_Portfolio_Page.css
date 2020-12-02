@@ -1,0 +1,70 @@
+h1,h3{
+    text-align: center;
+    color:#5f4c4c;
+    letter-spacing: 1px;
+    opacity:.8;
+    font-family: lato, sans-serif;
+}
+h2{
+    color:#5f4c4c;
+    letter-spacing: 1px;
+    opacity:.8;
+    font-family: lato, sans-serif;
+}
+hr {
+    width: 40px;
+    border-style: none;
+    border-top-style: outset ;
+    border-color: #5f4c4c;
+    border-width: 2px;
+    text-align: center;
+    opacity: .2;
+}
+p{
+    color:#5f4c4c;
+    letter-spacing: 1px;
+    font-family: lato, sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+.card{
+    text-align: center;
+    font-family: lato;
+    letter-spacing: 1px;
+}
+.card, a{
+    text-decoration: none;
+    height: 40px;
+    font-size: 20px;
+    padding: 20px;  
+    color: #404040;
+   
+}
+nav :hover{
+    background-color: #f4ebe2;
+    opacity: 0.6;
+    font-size: 1.3em;
+    transition: 0.2s;
+    
+}
+
+.social_media{
+    padding: 1px;
+}
+
+.contact{
+    text-align: center;
+}
+.keepintouch{
+    font-family: lato, sans-serif;
+}
+.submit{
+    font-family: lato, sans-serif;
+}
+.projects-title{
+    text-align: center;
+}
+
+
+
+
