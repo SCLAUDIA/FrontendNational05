@@ -1,19 +1,35 @@
 h1,h3{
-text-align: center;
-color:#222222;
-letter-spacing: 1px;
-opacity:.8;
+    text-align: center;
+    color:#5f4c4c;
+    letter-spacing: 1px;
+    opacity:.8;
+    font-family: lato, sans-serif;
+}
+h2{
+    color:#5f4c4c;
+    letter-spacing: 1px;
+    opacity:.8;
+    font-family: lato, sans-serif;
 }
 hr {
     width: 40px;
     border-style: none;
     border-top-style: outset ;
-    border-color: hsl(209, 100%, 31%);
+    border-color: #5f4c4c;
     border-width: 2px;
-    text-align: center;}
+    text-align: center;
+    opacity: .2;
+}
+p{
+    color:#5f4c4c;
+    letter-spacing: 1px;
+    font-family: lato, sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
 .card{
     text-align: center;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: lato;
     letter-spacing: 1px;
 }
 .card, a{
@@ -21,29 +37,34 @@ hr {
     height: 40px;
     font-size: 20px;
     padding: 20px;  
+    color: #404040;
+   
 }
-h4{
-    text-align: center;
-    color:rgb(53, 115, 197);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 17px;
-    letter-spacing: 0.5px;
+nav :hover{
+    background-color: #f4ebe2;
+    opacity: 0.6;
+    font-size: 1.3em;
+    transition: 0.2s;
+    
 }
-#mount_list{
-    text-align: center;
-}
+
 .social_media{
     padding: 1px;
 }
-p{
-    text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
+
 .contact{
     text-align: center;
 }
-#quote{
-    font-family: cursive;
-    font-style: italic;
+.keepintouch{
+    font-family: lato, sans-serif;
 }
+.submit{
+    font-family: lato, sans-serif;
+}
+.projects-title{
+    text-align: center;
+}
+
+
+
 
