@@ -1,0 +1,31 @@
+.exercitii {
+    width: 1000px;
+    margin: auto;
+    background-color: rgb(119, 115, 115);
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    color:whitesmoke;
+ }
+ #ex1a, #ex1b, #ex2a, #ex2b, #ex2c, #ex3, #ex4{
+     color: greenyellow;  
+ }
+ span{
+     color: rgb(231, 84, 84);
+ }
+ #title{
+     
+     background-color: rgb(231, 216, 216);
+     color: green;
+     display: flex;
+     justify-content: center;
+     
+ }
+
+ 
+ 
+
+ 
