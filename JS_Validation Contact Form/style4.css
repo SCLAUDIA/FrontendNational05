@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: white;;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+.container{
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    width: 400px;
+    max-width: 100%;
+    overflow: hidden;
+}
+.header{
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #f0f0f0;
+    padding: 20px 40px;
+
+}
+.header h2{
+    margin: 0;
+}
+form{
+    padding: 30px 40px;
+}
+.form-wrap{
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+}
+.form-wrap label {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+.form-wrap input{
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+    display: block;
+    font-size: 14px;
+    padding: 10px;
+    width: 100%;
+}
+.form-wrap i{
+    position: absolute;
+    top:40px;
+    right: 10px;
+    visibility: hidden;
+}
+.form-wrap small{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    visibility: hidden;
+}
+.form button{
+    background-color: #ad6c80;
+    border: 2px solid  #ad6c80;
+    border-radius: 5px;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+}
+.radio-btn{
+    padding-bottom: 20px;
+}
+#message{
+    height: 70px;
+}
+.thank-you-msg{
+    padding-left: 40px;
+    display: block;
+    font-size: 15px;
+    margin-bottom: 10px;
+    margin-top: 40px;
+    color:rgb(0, 114, 66);
+   
+}
+.hidden{
+    display: none;
+}
+
+/* style for valid input */
+.form-wrap.success input{
+    border-color: green;
+}
+.form-wrap.success i.fa-check-circle{
+    visibility: visible;
+    color: green;
+}
+
+/* style for invalid input */
+.form-wrap.error input{
+    border-color: red;
+}
+.form-wrap.error i.fa-exclamation-circle{
+    visibility: visible;
+    color: red;
+}
+.form-wrap.error small{
+    visibility: visible;
+    color: red;
+}
+
+/* for showing the user name */
+#namehere{
+    display: inline-block;
+}
+
+
