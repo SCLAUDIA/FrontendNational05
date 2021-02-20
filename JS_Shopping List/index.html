@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping List</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+             <h2>Shopping List <i class="fas fa-shopping-cart"></i></h2>
+             
+             <input type="text" id="shoppingInput">
+             <button class="addBtn" id="addBtn">Add Item</button>
+         </div>
+        
+        <div class="card-action" id="all-items">
+            <button class="btn">Sort asc</button>
+            <button class="btn">Sort desc</button><br><br>
+            <div id="entire-list">
+                <ul class="shopping-list">
+                <!-- <li class="shopping-list-item"> List item 1
+                    <button class="removeBtn" id="removeBtn">Mark as buyed</button>
+                </li>  -->
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>

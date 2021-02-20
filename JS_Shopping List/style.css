@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+body{
+    background-color: white;;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 50vh;
+    margin: 100px 0;
+}
+.container{
+  
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    width: 800px;
+    max-width: 100%;
+    overflow: hidden;
+}
+.header,.card-action{
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #f0f0f0;
+    padding: 50px 40px;
+}
+.header h2{
+    margin: 20px 5px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: #ad6c80;
+}
+.fa-shopping-cart{
+    margin: 0 20px;
+    font-size: 35px;
+}
+/* .card-action label{
+    display: inline-block;
+    margin: 10px 5px;
+    margin-top: 30px;
+    font-size: 17px;
+    font-family: 'Open Sans', sans-serif;
+} */
+.header input{
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+    /* display: block; */
+    font-size: 14px;
+    padding: 10px;
+    width: 80%;
+}
+.addBtn, .btn, .removeBtn{
+    background-color: #ad6c80;
+    border: 2px solid  #ad6c80;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 15px;
+    margin: 0 7px;
+    font-family: 'Open Sans', sans-serif;
+}
+.shopping-list .shopping-list-item{
+    background-color: #fff;
+    line-height: 1.5rem;
+    padding: 10px 20px;
+    margin:0;
+    border-bottom: 1px solid #e0e0e0;
+    display: inline-block;
+}
+ul>li{
+    list-style-type: none;
+}
+li{
+    width: 100%;
+}
+li>button{
+    float: right;
+}
+
