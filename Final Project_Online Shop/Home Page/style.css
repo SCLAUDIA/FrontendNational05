@@ -1,0 +1,229 @@
+ /* general styling */
+ :root{
+    --primaryColor: #f1f1f1;
+    --black1: #222;
+    --black2: #555;
+    --red:#c02525;
+    --grey:#959595;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: 'Archivo', sans-serif;
+}
+
+ul{
+    list-style: none;
+}
+
+
+/* navigation bar styling */
+.navigation{
+    box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .1);
+   
+}
+#header{
+    /* z-index: 1000; */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    z-index: 12;
+    position: fixed;
+   
+}
+#header .header{
+    min-height: 8vh;
+    
+}
+#header .nav-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    max-width: 1300px;
+    padding: 0 10px;
+    padding-left: 250px;
+    
+}
+.nav-bar{
+    background-color: white;
+}
+#header .nav-list ul{
+    list-style: none;
+    position: initial;
+    width: fit-content;
+    height: auto;
+    left: 100%;
+    top: 0;
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index:1;
+    overflow: hidden;
+}
+#header .nav-list ul li{
+    display: inline-block;
+
+}
+#header .nav-list ul a{
+    font-size: 1.1rem;
+    font-weight: 500;
+    letter-spacing: .0.5rem;
+    text-transform: uppercase;
+    padding: 20px; 
+    color: var(--black2);
+} 
+#header .nav-list ul a:hover{
+    color: var(--red);
+}
+
+
+
+/* Home page styling */
+.home-page {
+    position: relative;
+    background-image: url('./POZE\ PRODUSE/cover7.jpg');
+    /* background-position: 40% 80%; */
+    background-size: cover;
+    background-attachment: fixed;
+    max-width: 1500px;
+    margin: 0 auto;
+    height: 750px;
+    margin-top: 105px;
+    background-position: bottom center;
+    
+   
+}
+
+.cover h1 {
+    color: var(--red);
+    padding: 2rem 0 3rem 10rem;
+    font-size: 4rem;
+    font-weight: bolder;
+    width: 700px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-left: 800px;
+    padding-top: 150px; 
+  
+}
+.order-btn{
+  border: 1px solid var(--red);
+  width: 160px;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-left: 67rem;
+  height: 35px;
+  background-color: var(--primaryColor);
+  color: var(--red);
+ 
+}
+.order-btn:hover{
+    background-color: var(--red);
+    color: var(--primaryColor);
+}
+.cover small{
+    font-size: .9rem; 
+    font-weight: bold
+}
+
+/* Categories Section styling */
+
+.tripple-banner{
+    width: 1280px;
+    margin: 70px auto 0;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+.tripple-banner .category-box{
+    position: relative;
+    width: 400px;
+    height: 300px;
+    margin: 10px;
+    box-sizing: border-box;
+    /* display: inline-block; */
+}
+.tripple-banner .category-box .imgBox{
+    position: relative;
+    overflow: hidden;
+}
+.tripple-banner .category-box .imgBox img{
+    max-width: 100%;
+    transition: transform 1s;
+}
+.tripple-banner .category-box:hover .imgBox img{
+    transform: scale(1.2);
+}
+.tripple-banner .category-box .details-box{
+    position: absolute;
+    top:10px;
+    left: 10px;
+    bottom: 10px;
+    right: 10px;
+    background: rgba(0, 0, 0, .4);
+    transform: scaleY(0);
+    transition: transform .5s;
+
+}
+.tripple-banner .category-box:hover .details-box{
+    transform: scaleY(1);
+}
+.tripple-banner .category-box .details-box .content-box{
+    position: absolute;
+    top: 50%;
+    transform:translateY(-50%);
+    text-align: center;
+    padding:15px;
+    color: white;
+
+}
+.tripple-banner .category-box .details-box .content-box p{
+    margin: 10px 0 0;
+    padding: 0;
+    letter-spacing: 0.5px;
+}
+.content-box>button{
+    border: 1px solid var(--red);
+    width: 160px;
+    cursor: pointer;
+    height: 30px;
+    background-color: var(--primaryColor);
+    color: var(--red);
+}
+.content-box>button:hover{
+    background-color: var(--red);
+    color: var(--primaryColor);
+}
+.category-title{
+    display: flex;
+    justify-content: center; 
+    align-self: center;
+}
+ .category-title>div{
+    padding: 5px 15px;
+    background: var(--black2);
+    color:white;
+    border-radius: 3px;
+    font-size: 17px;
+    /* font-weight: bold; */
+    text-transform: uppercase;
+    height: fit-content;
+    margin-top: .1%;
+}
+.subtitle{
+    /* background-color: black; */
+    opacity: .6;
+}
+
